@@ -1,0 +1,120 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    *{
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+}
+body{
+ background: url(C:\Users\THENMOZHI\Downloads\shutterstock_1015800871-1.jpg)no-repeat;
+ background-size: cover;
+ }
+ .registration-form{
+position:absolute;
+top:50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width:400px;
+ }
+.registration-form h1{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 4px;
+    display:flex;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 20px;
+    color:blue;
+    text-shadow:0 0 15px blue,0 0 25px yellow;
+    animation: animate 1.5s linear infinite;
+}
+.registration-form p{
+    font-size: 20px;
+    margin: 15px 0;
+}
+.registration-form input{
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.registration-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #fff;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.registration-form button:hover{
+    color: blue;
+}
+.alreadylogin{
+    text-align: center;
+    font-size: 18px;
+}
+.alreadylogin h3{
+    text-align: center;
+    font-size: 15px;
+}
+.alreadylogin a{
+    font-size: 15px;
+}
+.alreadylogin a:hover{
+    color: blue;
+}
+<title>
+    Login page
+</title>
+</style>
+</head>
+<body>
+<div class="registration-form">
+    <h1>
+     Login 
+    </h1>
+    <form action="#" method="post">
+        
+       <p>
+        Email:
+       </p>
+       <input type="email" name="email" placeholder="Email">
+       <p>
+        Password:
+       </p>
+       <input type="password" name="password" placeholder="Password">
+       <br>
+       <button type="submit">
+       Login
+       </button>
+    </form>
+    <br>
+    <div class="alreadylogin">
+        <h3>if you don't register please click here </h3><a href="register.html">REGISTER HERE</a>
+    </div>
+</div>
+</div>
+
+<div class="square"></div>
+
+</body>
+</html> 
